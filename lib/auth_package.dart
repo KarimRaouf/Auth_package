@@ -5,6 +5,7 @@ library auth_package;
 import 'package:flutter/material.dart';
 
 class AuthService {
+  int karim = 3;
   // Example method for signing up a user
   Future<void> signUp(String email, String password) async {
     // Your sign-up logic here (e.g., Firebase, REST API)
